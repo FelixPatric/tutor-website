@@ -34,6 +34,47 @@ img{
     
 }
 
+/* Container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container-sm{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Navbar */
+.navbar{
+    background: black; /* Temporary used as guide for navbar */
+    color: white;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background 0.3s ease-in-out;
+}
+
+.navrbar-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar img{
+    width: 82px;
+    height: 32px;
+}
+
+
+
+
 /* Media Queries */
 @media (max-width: 1200px){
    
