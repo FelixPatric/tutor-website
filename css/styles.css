@@ -72,8 +72,25 @@ img{
     height: 32px;
 }
 
+.navrbar .main-menu-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 600;
+}
 
+.navbar a{
+    color: #fff;
+}
 
+.navbar a:hover{
+    color: var(--secondary-color);
+
+}
+
+.navbar  i{
+    font-size: 1.5rem;
+}
 
 /* Media Queries */
 @media (max-width: 1200px){
