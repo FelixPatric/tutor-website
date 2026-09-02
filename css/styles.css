@@ -1,3 +1,5 @@
+
+/* Felix patric's css */
 *,
 *::before,
 *::after {
@@ -94,7 +96,7 @@ img {
 }
 
 .section-header p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--dark-color);
 }
 
@@ -112,7 +114,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem 1.57rem;
+    padding: 2rem 1.75rem;
     background: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
@@ -128,7 +130,7 @@ img {
     right: 0;
     left: 0;
     z-index: 1000;
-    transition: background 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .navbar.navbar-scroll {
@@ -302,7 +304,7 @@ img {
     padding: 4rem 2rem 5rem;
 }
 
-.section-lists {
+.summary .section-lists {
     background: #fff;
     padding: 2rem;
 }
@@ -407,7 +409,7 @@ img {
 }
 
 .details p {
-    margin: 1rem 0.2rem;
+    margin: 1rem 0 2rem;
 }
 
 
@@ -429,9 +431,64 @@ img {
 }
 
 
+/* Stats Section */
+.stats {
+  background: #000 url('../img/stats-background.jpg') center center/cover no-repeat;
+  color: #fff;
+}
+
+.stats-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.stats img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.stats-content {
+  max-width: 500px;
+}
+
+.stats .stats-numbers {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stats .stats-numbers h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.stats .stats-numbers p {
+  font-size: 0.8rem;
+}
+
+.stats .stats-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.stats .btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+}
+
+
 /* Media Queries */
 @media (max-width: 1200px) {
-   hero .hero-flex {
+   .hero .hero-flex {
         gap: 2rem;
     }
     .hero img {
@@ -469,7 +526,7 @@ img {
     .takeaways-cards {
         grid-template-columns: 1fr;
     }
-    .details-flex, .details + .details .details-flex {
+    .details-flex, .details + .details .details-flex, .stats .stats-flex {
         flex-direction: column;
         gap: 2rem;
     }
@@ -522,5 +579,8 @@ img {
     }
     .summary .container {
         padding: 0;
+    }
+    .stats .stats-numbers {
+        flex-direction: column;
     }
 }
