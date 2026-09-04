@@ -1,0 +1,26 @@
+{
+  "name": "tutor-website",
+  "version": "1.0.0",
+  "description": "A static website for a video course platform",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixPatric/tutor-website.git"
+  },
+  "keywords": [
+    "tutor",
+    "education",
+    "courses",
+    "static-website"
+  ],
+  "author": "FelixPatric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixPatric/tutor-website/issues"
+  },
+  "homepage": "https://github.com/FelixPatric/tutor-website#readme"
+}
