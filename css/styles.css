@@ -580,7 +580,47 @@ img {
     margin : 2rem 0;
 }
 
+/* Inner Header Section */
+.inner-header {
+    background: var(--primary-color);
+    color: #fff;
+    height: 250px;
+    padding-top:8rem; 
+}
 
+.inner-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+/* Contact Form Section */
+.contact-form p {
+    margin-bottom: 3rem;
+}
+
+.contact-form input, .contact-form textarea {
+    display: block;
+    font-family: inherit;
+    font-size: medium;
+    width: 100%;
+    margin:1.5rem 0;
+    border: 1px solid #ccc;
+    padding: 1.2rem 1rem ;
+
+}
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form .btn {
+    display: block;
+    width: 100%;
+    font-size: inherit;
+    font-family: inherit;
+    margin: 0 auto;
+}
 
 /* Media Queries */
 @media (max-width: 1200px) {
@@ -673,6 +713,8 @@ img {
     }
 
 }
+
+
 
 @media (max-width: 576px) {
     .hero {
